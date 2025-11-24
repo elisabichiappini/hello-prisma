@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+
   "scripts": {
-    "migrate": "prisma migrate dev"
+    "migrate": "prisma migrate dev",
+    "dev": "node app.js"
   },
   "keywords": [],
   "author": "",
